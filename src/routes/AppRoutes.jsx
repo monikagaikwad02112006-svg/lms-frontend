@@ -6,7 +6,7 @@ import Dashboard from "../pages/Student/Dashboard";
 import Calendar from "../pages/Student/Calendar";
 import Certificates from "../pages/Student/Certificates";
 import Doubts from "../pages/Student/Doubts";
-import Forum from "../pages/Student/Forum";
+import Forum from "../pages/Student/forum";
 import Notes from "../pages/Student/Notes";
 import NotesLibrary from "../pages/Student/NotesLibrary";
 import Quizzes from "../pages/Student/Quizzes";
