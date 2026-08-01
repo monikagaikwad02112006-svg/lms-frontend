@@ -1,0 +1,151 @@
+.backup-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #020617;
+}
+
+.backup-page {
+  flex: 1;
+  padding: 30px;
+  color: #ffffff;
+}
+
+.backup-header {
+  margin-bottom: 30px;
+}
+
+.backup-header h1 {
+  font-size: 34px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.backup-header p {
+  color: #94a3b8;
+}
+
+.backup-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.backup-card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 18px;
+  padding: 24px;
+  transition: 0.3s;
+}
+
+.backup-card:hover {
+  transform: translateY(-4px);
+  border-color: #2563eb;
+}
+
+.backup-card h3 {
+  color: #94a3b8;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.backup-card h2 {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.backup-card span {
+  color: #cbd5e1;
+}
+
+.success {
+  color: #22c55e !important;
+  font-weight: 600;
+}
+
+.backup-actions-card,
+.backup-table-card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 18px;
+  padding: 24px;
+  margin-bottom: 25px;
+}
+
+.backup-actions-card h3,
+.backup-table-card h3 {
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.backup-actions-card p {
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+.backup-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.backup-btn,
+.restore-btn {
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.backup-btn {
+  background: #2563eb;
+}
+
+.backup-btn:hover {
+  background: #1d4ed8;
+}
+
+.restore-btn {
+  background: #f59e0b;
+}
+
+.restore-btn:hover {
+  background: #d97706;
+}
+
+.backup-table-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.backup-table-card thead {
+  background: #1e293b;
+}
+
+.backup-table-card th,
+.backup-table-card td {
+  padding: 16px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.backup-table-card tbody tr {
+  border-top: 1px solid #1e293b;
+}
+
+.backup-table-card tbody tr:hover {
+  background: rgba(37, 99, 235, 0.08);
+}
+
+@media (max-width: 768px) {
+  .backup-page {
+    padding: 20px;
+  }
+
+  .backup-buttons {
+    flex-direction: column;
+  }
+}

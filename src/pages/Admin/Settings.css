@@ -1,0 +1,174 @@
+.settings-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #020617;
+}
+
+.settings-page {
+  flex: 1;
+  padding: 30px;
+  color: white;
+}
+
+.settings-header {
+  margin-bottom: 30px;
+}
+
+.settings-header h1 {
+  font-size: 34px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.settings-header p {
+  color: #94a3b8;
+}
+
+.settings-card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 18px;
+  padding: 30px;
+  max-width: 900px;
+}
+
+.settings-section {
+  margin-bottom: 30px;
+}
+
+.settings-section:last-child {
+  margin-bottom: 0;
+}
+
+.settings-section h3 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 20px;
+  border-bottom: 1px solid #1e293b;
+  padding-bottom: 10px;
+}
+
+.setting-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.setting-item label {
+  color: #cbd5e1;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.setting-item input,
+.setting-item select,
+.setting-item textarea {
+  background: #020617;
+  border: 1px solid #334155;
+  color: white;
+  padding: 12px 14px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+}
+
+.setting-item input:focus,
+.setting-item select:focus,
+.setting-item textarea:focus {
+  border-color: #2563eb;
+}
+
+.setting-item textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.settings-actions {
+  margin-top: 25px;
+  display: flex;
+  gap: 12px;
+}
+
+.save-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.save-btn:hover {
+  background: #1d4ed8;
+}
+
+.reset-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.reset-btn:hover {
+  background: #dc2626;
+}
+
+.toggle-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #020617;
+  border: 1px solid #334155;
+  padding: 14px 16px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.toggle-row span {
+  color: white;
+}
+
+.toggle-switch {
+  width: 45px;
+  height: 24px;
+  background: #334155;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle-switch::after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+@media (max-width: 768px) {
+  .settings-page {
+    padding: 20px;
+  }
+
+  .settings-actions {
+    flex-direction: column;
+  }
+
+  .save-btn,
+  .reset-btn {
+    width: 100%;
+  }
+
+  .toggle-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

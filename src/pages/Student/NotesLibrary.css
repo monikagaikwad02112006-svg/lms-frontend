@@ -1,0 +1,108 @@
+
+.library-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #0f172a;
+}
+
+.library-container {
+  flex: 1;
+  padding: 40px;
+}
+
+.library-header {
+  margin-bottom: 30px;
+}
+
+.library-header h1 {
+  color: #ffffff;
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.library-header p {
+  color: #94a3b8;
+  font-size: 15px;
+}
+
+.search-section {
+  margin-bottom: 30px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 450px;
+  padding: 14px 18px;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  background: #111827;
+  color: white;
+  outline: none;
+  font-size: 15px;
+}
+
+.search-input::placeholder {
+  color: #94a3b8;
+}
+
+.library-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.library-card {
+  background: #111827;
+  border: 1px solid #1e293b;
+  border-radius: 18px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.library-card:hover {
+  transform: translateY(-5px);
+  border-color: #3b82f6;
+}
+
+.library-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.subject-tag {
+  display: inline-block;
+  background: rgba(59, 130, 246, 0.15);
+  color: #60a5fa;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.library-card h3 {
+  color: white;
+  margin-bottom: 12px;
+}
+
+.teacher,
+.files {
+  color: #cbd5e1;
+  margin-bottom: 8px;
+}
+
+.view-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.view-btn:hover {
+  background: #1d4ed8;
+}

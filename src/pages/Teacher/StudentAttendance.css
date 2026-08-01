@@ -1,0 +1,138 @@
+.attendance-page {
+  min-height: 100vh;
+  background: #020617;
+  color: #ffffff;
+  padding: 30px;
+}
+
+.attendance-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.attendance-header h1 {
+  font-size: 34px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.attendance-header p {
+  color: #94a3b8;
+}
+
+.mark-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.mark-btn:hover {
+  background: #1d4ed8;
+}
+
+.attendance-toolbar {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.search-input,
+.filter-select {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.search-input {
+  flex: 1;
+}
+
+.search-input::placeholder {
+  color: #64748b;
+}
+
+.attendance-table {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 18px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #1e293b;
+}
+
+th {
+  color: #ffffff;
+  padding: 18px;
+  text-align: left;
+  font-weight: 600;
+}
+
+td {
+  color: #ffffff;
+  padding: 18px;
+}
+
+tbody tr {
+  border-top: 1px solid #1e293b;
+}
+
+tbody tr:hover {
+  background: rgba(37, 99, 235, 0.08);
+}
+
+.status {
+  padding: 6px 12px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.present {
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+}
+
+.absent {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+}
+
+.view-btn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  background: #2563eb;
+}
+
+@media (max-width: 768px) {
+  .attendance-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .attendance-toolbar {
+    flex-direction: column;
+  }
+}

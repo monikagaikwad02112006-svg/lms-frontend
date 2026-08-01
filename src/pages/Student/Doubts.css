@@ -1,0 +1,99 @@
+.doubts-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #0f172a;
+}
+
+.doubts-container {
+  flex: 1;
+  padding: 40px;
+}
+
+.doubts-header h1 {
+  color: #ffffff;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.doubts-header p {
+  color: #94a3b8;
+  margin-bottom: 30px;
+}
+
+.ask-doubt-card {
+  background: #111827;
+  border: 1px solid #1e293b;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.ask-doubt-card input {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #1e293b;
+  color: white;
+  outline: none;
+}
+
+.ask-doubt-card button {
+  padding: 14px 24px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.ask-doubt-card button:hover {
+  background: #1d4ed8;
+}
+
+.doubts-list {
+  display: grid;
+  gap: 20px;
+}
+
+.doubt-card {
+  background: #111827;
+  border: 1px solid #1e293b;
+  border-radius: 16px;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.doubt-card:hover {
+  transform: translateY(-4px);
+  border-color: #3b82f6;
+}
+
+.doubt-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.subject {
+  color: #60a5fa;
+  font-weight: 600;
+}
+
+.answered {
+  color: #22c55e;
+  font-weight: 600;
+}
+
+.pending {
+  color: #f59e0b;
+  font-weight: 600;
+}
+
+.doubt-card h3 {
+  color: white;
+  font-size: 18px;
+}

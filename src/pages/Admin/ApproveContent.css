@@ -1,0 +1,93 @@
+.approve-content {
+  min-height: 100vh;
+  background: #020617;
+  padding: 30px;
+  color: white;
+}
+
+.approve-header {
+  margin-bottom: 25px;
+}
+
+.approve-header h1 {
+  font-size: 34px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.approve-header p {
+  color: #94a3b8;
+}
+
+.content-table-card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 18px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #1e293b;
+}
+
+th,
+td {
+  padding: 18px;
+  text-align: left;
+  color: white;
+}
+
+tbody tr {
+  border-top: 1px solid #1e293b;
+}
+
+tbody tr:hover {
+  background: rgba(37, 99, 235, 0.08);
+}
+
+.pending-badge {
+  background: rgba(245, 158, 11, 0.15);
+  color: #f59e0b;
+  padding: 6px 12px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.view-btn,
+.approve-btn,
+.reject-btn {
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.view-btn {
+  background: #3b82f6;
+}
+
+.approve-btn {
+  background: #22c55e;
+}
+
+.reject-btn {
+  background: #ef4444;
+}
+
+@media (max-width: 768px) {
+  .approve-content {
+    padding: 20px;
+  }
+}

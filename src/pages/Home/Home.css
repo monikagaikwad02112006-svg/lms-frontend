@@ -1,0 +1,144 @@
+/* ===== PROFESSIONAL DARK THEME TEXT COLORS ===== */
+
+.home-page {
+  min-height: 100vh;
+  background: #020617;
+  color: #f8fafc;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Navbar */
+
+.home-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 8%;
+  border-bottom: 1px solid #1e293b;
+  background: rgba(2, 6, 23, 0.95);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo h2 {
+  color: #60a5fa;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.home-navbar a {
+  color: #e2e8f0;
+}
+
+/* Hero */
+
+.hero-content h1 {
+  color: #f8fafc;
+  font-size: 64px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+  color: #60a5fa;
+}
+
+.hero-content p {
+  color: #94a3b8;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* Section Titles */
+
+.section-title h2 {
+  color: #f8fafc;
+  font-size: 42px;
+}
+
+.section-title p {
+  color: #94a3b8;
+}
+
+/* Feature Cards */
+
+.feature-card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 18px;
+  padding: 30px;
+}
+
+.feature-card h3 {
+  color: #e2e8f0;
+}
+
+.feature-card p {
+  color: #94a3b8;
+}
+
+/* Stats */
+
+.stat-card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 18px;
+  padding: 30px;
+  text-align: center;
+}
+
+.stat-card h2 {
+  color: #60a5fa;
+  font-size: 42px;
+}
+
+.stat-card p {
+  color: #cbd5e1;
+}
+
+/* CTA */
+
+.cta-section h2 {
+  color: #f8fafc;
+  font-size: 46px;
+}
+
+.cta-section p {
+  color: #94a3b8;
+}
+
+/* Buttons */
+
+.primary-btn,
+.signup-btn,
+.cta-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.primary-btn:hover,
+.signup-btn:hover,
+.cta-btn:hover {
+  background: #1d4ed8;
+}
+
+.secondary-btn,
+.login-btn {
+  background: transparent;
+  border: 1px solid #334155;
+  color: #e2e8f0;
+}
+
+.secondary-btn:hover,
+.login-btn:hover {
+  border-color: #60a5fa;
+  background: rgba(96, 165, 250, 0.1);
+}
+
+/* Footer */
+
+.home-footer {
+  color: #94a3b8;
+  border-top: 1px solid #1e293b;
+}

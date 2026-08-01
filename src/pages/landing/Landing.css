@@ -1,0 +1,33 @@
+.landing-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.login-btn,
+.signup-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.login-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.login-btn:hover {
+  background: #1d4ed8;
+}
+
+.signup-btn {
+  background: #22c55e;
+  color: white;
+}
+
+.signup-btn:hover {
+  background: #16a34a;
+}

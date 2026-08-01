@@ -1,0 +1,240 @@
+.teacher-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #0f172a;
+}
+
+
+.teacher-container {
+  flex: 1;
+  padding: 40px;
+}
+
+
+.teacher-header {
+  margin-bottom: 30px;
+}
+
+
+.teacher-header h1 {
+  color: #f8fafc;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+
+.teacher-header p {
+  color: #94a3b8;
+  margin-top: 8px;
+}
+
+
+
+.search-box {
+  margin-bottom: 35px;
+}
+
+
+.search-box input {
+
+  width: 100%;
+  max-width: 450px;
+
+  padding: 14px 18px;
+
+  background: #111827;
+
+  border: 1px solid #334155;
+
+  border-radius: 12px;
+
+  color: white;
+
+  outline: none;
+
+  font-size: 15px;
+
+}
+
+
+
+.teacher-grid {
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(280px,1fr));
+
+  gap:25px;
+
+}
+
+
+
+.teacher-card {
+
+  background:
+  linear-gradient(
+    145deg,
+    #111827,
+    #1e293b
+  );
+
+  border:1px solid #334155;
+
+  border-radius:22px;
+
+  padding:28px;
+
+  text-align:center;
+
+  transition:0.3s;
+
+}
+
+
+
+.teacher-card:hover {
+
+  transform:translateY(-8px);
+
+  border-color:#3b82f6;
+
+  box-shadow:
+  0 15px 30px rgba(37,99,235,0.2);
+
+}
+
+
+
+.profile-circle {
+
+  width:80px;
+  height:80px;
+
+  margin:auto;
+
+  display:flex;
+
+  align-items:center;
+  justify-content:center;
+
+  border-radius:50%;
+
+  background:
+  linear-gradient(
+    135deg,
+    #2563eb,
+    #60a5fa
+  );
+
+  color:white;
+
+  font-size:32px;
+
+  font-weight:700;
+
+}
+
+
+
+.teacher-card h2 {
+
+  color:white;
+
+  margin:18px 0 10px;
+
+  font-size:22px;
+
+}
+
+
+
+.subject {
+
+  display:inline-block;
+
+  padding:7px 14px;
+
+  border-radius:20px;
+
+  background:
+  rgba(59,130,246,0.15);
+
+  color:#60a5fa;
+
+  font-size:13px;
+
+}
+
+
+
+.teacher-card p {
+
+  color:#cbd5e1;
+
+  margin:12px 0;
+
+}
+
+
+
+.email {
+
+  font-size:14px;
+
+  color:#94a3b8 !important;
+
+}
+
+
+
+.available {
+
+  color:#22c55e;
+
+  font-weight:600;
+
+}
+
+
+
+.busy {
+
+  color:#ef4444;
+
+  font-weight:600;
+
+}
+
+
+
+.profile-btn {
+
+  width:100%;
+
+  margin-top:20px;
+
+  padding:12px;
+
+  border:none;
+
+  border-radius:12px;
+
+  background:#2563eb;
+
+  color:white;
+
+  font-weight:600;
+
+  cursor:pointer;
+
+}
+
+
+
+.profile-btn:hover {
+
+  background:#1d4ed8;
+
+}

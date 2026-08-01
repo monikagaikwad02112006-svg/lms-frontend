@@ -1,0 +1,136 @@
+.teacher-login-page {
+
+  min-height:100vh;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  background:#302562;
+
+}
+
+
+
+.teacher-login-card {
+
+  width:380px;
+
+  background:#1c174e;
+
+  padding:35px;
+
+  border-radius:20px;
+
+  border:1px solid #334155;
+
+  box-shadow:
+  0 20px 40px rgba(0,0,0,0.4);
+
+}
+
+
+
+.teacher-login-card h1 {
+
+  color:white;
+
+  text-align:center;
+
+  margin-bottom:10px;
+
+}
+
+
+
+.teacher-login-card p {
+
+  color:#94a3b8;
+
+  text-align:center;
+
+  margin-bottom:30px;
+
+}
+
+
+
+.input-group {
+
+  margin-bottom:20px;
+
+}
+
+
+
+.input-group label {
+
+  display:block;
+
+  color:#cbd5e1;
+
+  margin-bottom:8px;
+
+}
+
+
+
+.input-group input {
+
+  width:100%;
+
+  padding:13px;
+
+  border-radius:15px;
+
+  border:1px solid #334155;
+
+  background:#0f172a;
+
+  color:white;
+
+  outline:none;
+
+}
+
+
+
+.input-group input:focus {
+
+  border-color:#2563eb;
+
+}
+
+
+
+.teacher-login-card button {
+
+  width:100%;
+
+  padding:14px;
+
+  border:none;
+
+  border-radius:12px;
+
+  background:#2563eb;
+
+  color:white;
+
+  font-size:16px;
+
+  font-weight:600;
+
+  cursor:pointer;
+
+}
+
+
+
+.teacher-login-card button:hover {
+
+  background:#1d4ed8;
+
+}
