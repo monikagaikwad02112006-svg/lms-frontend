@@ -1,7 +1,7 @@
 import Sidebar from "../../components/Sidebar";
-import "./subjectpage.css";
+import "./SubjectPage.css";
 
-function subjectpage() {
+function SubjectPage() {
 
   const subjects = [
     {
