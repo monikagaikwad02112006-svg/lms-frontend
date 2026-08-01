@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"
   },
+
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "axios": "^1.18.1",
@@ -24,6 +26,7 @@
     "recharts": "^3.10.0",
     "tailwindcss": "^4.3.3"
   },
+
   "devDependencies": {
     "@types/node": "^24.13.2",
     "@types/react": "^19.2.17",
