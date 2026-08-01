@@ -1,32 +1,79 @@
-# React + TypeScript + Vite
+# LMS Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern Learning Management System (LMS) built using React, Vite, React Router, HTML, CSS, and JavaScript.
 
-Currently, two official plugins are available:
+##  Modules & Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+###  Student Panel
 
-## React Compiler
+* Dashboard
+* Attendance Tracking
+* Assignments
+* Calendar
+* Certificates
+* Doubts Section
+* Discussion Forum
+* Notes Library
+* Quizzes
+* Videos & Recorded Lectures
+* Subject Pages
+* Teacher Directory
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+###  Teacher Panel
 
-## Expanding the Oxlint configuration
+* Teacher Dashboard
+* Course Management
+* Assignment Creation
+* Attendance Management
+* Student Monitoring
+* Notes Upload
+* Video Upload
+* Analytics
+* Profile Management
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+###  Admin Panel
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+* Admin Dashboard
+* Student Management
+* Teacher Management
+* Course Management
+* Subject Management
+* Attendance Monitoring
+* Assignment Monitoring
+* Reports & Analytics
+* Announcements
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+###  Super Admin Panel
+
+* Super Admin Dashboard
+* Admin Management
+* Role & Permission Management
+* Institute Management
+* User Access Control
+* Platform Analytics
+* System Settings
+* Security & Audit Logs
+* Global Reports
+
+##  Tech Stack
+
+* React.js
+* Vite
+* React Router DOM
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+
+##  Deployment
+
+* Vercel
+* Netlify
+* GitHub Pages
+
+##  Developer
+
+Monika Gaikwad
+
+GitHub: https://github.com/monikagaikwad02112006-svg
+
+
